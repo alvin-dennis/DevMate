@@ -17,7 +17,7 @@ st.header("Introduction")
 st.markdown(
     """
     Welcome to DevMate! Your personal coding assistant that helps you with code-related queries, troubleshooting, and more. 
-    Ask any programming questions, and receive instant code snippets tailored to your needs.
+    Ask any programming questions, and receive answers and instant code snippets tailored to your needs.
     """
 )
 

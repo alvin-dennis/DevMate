@@ -2,6 +2,10 @@
 
 DevMate is a chatbot that assists developers in finding the code they need. Built using Python, Pathway, OpenAI, and Streamlit, DevMate utilizes advanced language models and real-time data to generate accurate and relevant code snippets. With its user-friendly interface, developers can easily enter their queries and receive customized code solutions. Whether you're a beginner or an experienced developer, DevMate is here to streamline your coding process.
 
+## Live Site
+
+https://devmate.streamlit.app/
+
 ## Features
 
 - Code snippet generation: DevMate can generate code snippets based on user queries, making it easier for developers to find the code they need.

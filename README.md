@@ -7,7 +7,7 @@ DevMate is a chatbot that assists developers in finding the code they need. Buil
 https://devmate.streamlit.app/
 
 ## Preview
-
+<img src="https://github.com/alvin-dennis/DevMate/blob/main/assets/devmatedemo.png" alt="Demo Image" width="1000" height="1000"/>
 
 ## Features
 

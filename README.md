@@ -6,6 +6,9 @@ DevMate is a chatbot that assists developers in finding the code they need. Buil
 
 https://devmate.streamlit.app/
 
+## Preview
+
+
 ## Features
 
 - Code snippet generation: DevMate can generate code snippets based on user queries, making it easier for developers to find the code they need.
@@ -23,21 +26,34 @@ To get started with DevMate, follow these steps:
     ```bash
     git clone https://github.com/alvin-dennis/DevMate.git
     ```
-2. Install the required dependencies:
+
+2. Create and activate a virtual environment:
+
+    ```shell
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+
+3. Install the required dependencies:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-3. Rename `.env.example` file to `.env` and insert the required credentials
+4. Rename `.env.example` file to `.env` and insert the required credentials
 
-4. Run the Streamlit app:
+5. Run Pathway Engine :
+    ```bash
+    python3 app.py
+    ```
+
+6. Run the Streamlit app:
 
     ```bash
     streamlit run main.py
     ```
 
-5. Access the app in your browser at `http://localhost:8501`
+7. Access the app in your browser at `http://localhost:8501`
 
 ## Libraries Used
 

@@ -44,11 +44,13 @@ if prompt := st.chat_input("Hello, How can I help you today?"):
     url = f"http://{api_host}:{api_port}/"
     data = {"query": prompt, "user": "user"}
 
+
     response = requests.post(url, json=data)
 
     if response.status_code == 200:
         response_json = response.json()
         with st.chat_message("assistant"):
+            st.success('Query recognized. Here is the generated code snippet')
             st.markdown(response_json)
         st.session_state.messages.append({"role": "assistant", "content": response_json})
     else:

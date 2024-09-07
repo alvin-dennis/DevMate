@@ -1,5 +1,4 @@
 import os
-
 import dotenv
 import pathway as pw
 from pathway.xpacks.llm.llms import OpenAIChat, prompt_chat_single_qa
